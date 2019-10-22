@@ -1,0 +1,90 @@
+body {
+	font-family: Roboto;
+	background: #22c1c3;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #fdbb2d, #22c1c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#container {
+	border: 1px solid black;
+	width: 50%;
+	margin: 0 auto;
+}
+#head {
+	padding: 5px;
+}
+#amt {
+	width: 50px;
+}
+#head {
+	background-color: #79aaf7;
+	text-align: center;
+	margin: 0 auto;
+}
+.style {
+	background-color: #f54242;
+	color: white;
+	float: left;
+	text-align: center;
+	display: inline-block;
+	width: 0;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+.style:hover{
+	width: 40px;
+	opacity: 1.0;
+	transition: 0.2s linear;
+}
+h1 {
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	background-color: #79aaf7;
+}
+h3 {
+	display: inline;
+}
+p {
+	text-align: center;
+	font-size: 25px;
+}
+hr.style-seven {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr.style-seven:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+table {
+	width: 100%;
+	background-color: #f0f0f0;
+	text-align: center;
+	table-layout: fixed;
+	padding: 0;
+	border-top: 1px solid black;
+}
+table td {
+	width: 25%;
+	padding: 0;
+}
+table tbody tr:nth-of-type(odd){
+	background-color: #e8e8e8;
+}
+span {
+	margin-right: 10px;
+}
+input[type="text"]{
+	margin-right: 10px;
+}
